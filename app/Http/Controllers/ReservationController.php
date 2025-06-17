@@ -8,7 +8,11 @@ use Carbon\Carbon;
 class ReservationController extends Controller
 {
    
-    
+        public function index()
+    {
+        $reservations = Reservation::latest()->paginate(10);
+        return view('admin.reservations.index', compact('reservations'));
+    }
 
     public function store(Request $request)
     {
@@ -41,5 +45,11 @@ class ReservationController extends Controller
         return back()->with('success', 'Your reservation has been submitted!');
     }
     
+        public function destroy($id)
+    {
+        $reservation = Reservation::findOrFail($id);
+        $reservation->delete();
+        return redirect()->back()->with('success', 'Reservation deleted.');
+    }
 
 }
