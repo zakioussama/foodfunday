@@ -24,7 +24,18 @@
 
 <!-- Background image and content -->
 <div class="bg-image" style="background-image: url('{{ asset('images/banner.jpg') }}'); background-size: cover; background-position: center; min-height: 100vh; padding: 40px 0;">
-    <div class="container text-white">
+    <div class="container text-white position-relative">
+        
+        <!-- Logout Button Top Right -->
+        <div style="position: absolute; top: 20px; right: 20px;">
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit" class="book-btn-boob" style="font-size: 1rem; padding: 8px 16px; min-width: auto;">
+                    Logout
+                </button>
+            </form>
+        </div>
+
         <div class="text-center mb-5">
             <h2 class="ft-title color-white">Admin Panel - Reservations</h2>
             <p>Manage all incoming reservations here.</p>
@@ -53,7 +64,6 @@
                 </form>
             </div>
         @endforeach
-
 
         <div class="d-flex justify-content-center mt-4">
             {{ $reservations->links() }}

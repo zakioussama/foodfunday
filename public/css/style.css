@@ -1543,6 +1543,25 @@ html, body{ height: 100%; }
 	border:none;
 }
 
+.book-btn-boob {
+    color: #fff;
+    padding: 6px 12px;  /* smaller padding */
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 14px; /* smaller font size */
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.book-btn-boob:hover {
+    border: 2px solid red;
+    background: none;
+    color: #fff;
+}
+
+
 textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:focus{
     outline: none !important;
 }
@@ -1625,6 +1644,8 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 	background:#f5f5f5;
 	color:#202020;
 }
+
+
 
 .footer-box{
 	background:#202020;

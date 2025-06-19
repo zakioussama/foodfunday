@@ -64,7 +64,14 @@
                                     <li><a href="#pricing">Pricing</a></li>
                                     <li><a href="#reservation">Reservation</a></li>
                                     <li><a href="#footer">Contact us</a></li>
+                                    <li>
+                                        <form method="POST" action="{{ route('logout') }}" style="display: inline;">
+                                            @csrf
+                                            <button type="submit" class="book-btn-boob">Logout</button>
+                                        </form>
+                                    </li>
                                 </ul>
+
                             </div>
                         </nav>
                         <!-- End Navbar -->
