@@ -93,7 +93,7 @@
                             <span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span>
                         </h1>
                         <h2>Accidental appearances</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</p>
+                        <p>Experience unforgettable flavors, warm ambiance, and meaningful moments — all in one perfect place.</p>
                         <div class="book-btn">
                             <a href="#reservation" class="table-btn hvr-underline-from-center">Book my Table</a>
                         </div>
@@ -107,6 +107,7 @@
     </div>
 </div>
 
+
 <!-- About Section -->
 <div id="about" class="about-main pad-top-100 pad-bottom-100">
     <div class="container">
@@ -116,11 +117,11 @@
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     <h2 class="block-title"> About Us </h2>
                     <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco.</p>
+                    <p>What began as a humble kitchen with a passion for food and hospitality quickly grew into a community favorite. We set out with one goal: to create a dining experience that feels just like home — only with better lighting and fewer dishes to wash.</p>
 
-                    <p>Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros.</p>
+                    <p>Our founders believed that great meals bring people together. With that vision, we’ve crafted a space where flavors from around the world meet local favorites, served with a side of heart and soul. From cozy dinners to lively celebrations, every guest becomes part of our story.</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco.</p>
+                    <p>We invite you to pull up a chair, savor every bite, and let your taste buds do the talking. Whether it’s your first visit or your hundredth, welcome to the table.</p>
                 </div>
             </div>
 
@@ -136,6 +137,7 @@
         </div>
     </div>
 </div>
+
 <div class="special-menu pad-top-100 parallax">
     <div class="container">
         <div class="row">
@@ -143,7 +145,7 @@
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     <h2 class="block-title color-white text-center">Today's Special</h2>
                     <h5 class="title-caption text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco.
+                        Handpicked with care and crafted by our chefs — explore today’s featured dishes, each made to surprise your senses and satisfy your cravings.
                     </h5>
                 </div>
                 <div class="special-box">
@@ -154,12 +156,12 @@
                                     <div class="headline">
                                         SALMON STEAK
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">Grilled to perfection and served with herb butter, seasonal vegetables, and lemon zest.</div>
                                     </div>
                                 </div>
                             </a>
                             <div class="item-img">
-                                <img src="{{ asset('images/special-menu-1.jpg') }}" alt="sp-menu">
+                                <img src="{{ asset('images/special-menu-1.jpg') }}" alt="Salmon Steak">
                             </div>
                         </div>
                         <div class="item item-type-zoom">
@@ -168,12 +170,12 @@
                                     <div class="headline">
                                         ITALIAN PIZZA
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">Wood-fired crust topped with fresh mozzarella, tomato basil sauce, and oregano.</div>
                                     </div>
                                 </div>
                             </a>
                             <div class="item-img">
-                                <img src="{{ asset('images/special-menu-2.jpg') }}" alt="sp-menu">
+                                <img src="{{ asset('images/special-menu-2.jpg') }}" alt="Italian Pizza">
                             </div>
                         </div>
                         <div class="item item-type-zoom">
@@ -182,12 +184,12 @@
                                     <div class="headline">
                                         VEG. ROLL
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">A crisp medley of seasonal vegetables wrapped in flaky pastry, served with mint chutney.</div>
                                     </div>
                                 </div>
                             </a>
                             <div class="item-img">
-                                <img src="{{ asset('images/special-menu-3.jpg') }}" alt="sp-menu">
+                                <img src="{{ asset('images/special-menu-3.jpg') }}" alt="Veg Roll">
                             </div>
                         </div>
                         <div class="item item-type-zoom">
@@ -196,12 +198,12 @@
                                     <div class="headline">
                                         SALMON STEAK
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">Rich in flavor and omega-3s — our house favorite served with roasted potatoes.</div>
                                     </div>
                                 </div>
                             </a>
                             <div class="item-img">
-                                <img src="{{ asset('images/special-menu-1.jpg') }}" alt="sp-menu">
+                                <img src="{{ asset('images/special-menu-1.jpg') }}" alt="Salmon Steak Repeat">
                             </div>
                         </div>
                         <div class="item item-type-zoom">
@@ -210,12 +212,12 @@
                                     <div class="headline">
                                         VEG. ROLL
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">Crispy outside, hearty inside — a perfect plant-based treat for every appetite.</div>
                                     </div>
                                 </div>
                             </a>
                             <div class="item-img">
-                                <img src="{{ asset('images/special-menu-2.jpg') }}" alt="sp-menu">
+                                <img src="{{ asset('images/special-menu-2.jpg') }}" alt="Veg Roll Repeat">
                             </div>
                         </div>
                     </div>
@@ -228,6 +230,7 @@
     </div>
     <!-- end container -->
 </div>
+
 <!-- end special-menu -->
 <!-- resources/views/home.blade.php -->
 <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
@@ -237,7 +240,7 @@
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     <h2 class="block-title text-center">Our Menu</h2>
                     <p class="title-caption text-center">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        Explore our chef-curated menu featuring a variety of starters, hearty mains, indulgent desserts, and refreshing beverages — all crafted with the freshest ingredients.
                     </p>
                 </div>
                 <div class="tab-menu">
@@ -251,7 +254,7 @@
                             <p><i class="flaticon-dinner"></i></p>
                         </div>
                         <div class="tab-title-menu">
-                            <h2>DESERTS</h2>
+                            <h2>DESSERTS</h2>
                             <p><i class="flaticon-desert"></i></p>
                         </div>
                         <div class="tab-title-menu">
@@ -259,6 +262,7 @@
                             <p><i class="flaticon-coffee"></i></p>
                         </div>
                     </div>
+
                     <div class="slider slider-single">
                         @foreach ($menuItems as $category => $items)
                             <div>
@@ -280,12 +284,10 @@
                 </div>
                 <!-- end tab-menu -->
             </div>
-            <!-- end col -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
 </div>
+
 <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
     <div class="container">
         <div class="row">
@@ -868,119 +870,100 @@
     </div>
 </div>
 <div id="footer" class="footer-main">
-        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
+    <div class="footer-news pad-top-100 pad-bottom-70 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="ft-title color-white text-center">Newsletter</h2>
+                        <p>Subscribe to get the latest updates on our seasonal specials, discounts, and chef picks!</p>
+                    </div>
+                    <form>
+                        <input type="email" placeholder="Enter your e-mail id" required>
+                        <button type="submit" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-box pad-top-70">
+        <div class="container">
+            <div class="row">
+                <div class="footer-in-main">
+                    <div class="footer-logo text-center">
+                        <img src="{{ asset('images/logo.png') }}" alt="Logo" />
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-a">
+                            <h3>About Us</h3>
+                            <p>We are passionate about delivering unforgettable dining experiences with a menu inspired by both tradition and innovation.</p>
+                            <ul class="socials-box footer-socials pull-left">
+                                <li><a href="#"><div class="social-circle-border"><i class="fa fa-facebook"></i></div></a></li>
+                                <li><a href="#"><div class="social-circle-border"><i class="fa fa-twitter"></i></div></a></li>
+                                <li><a href="#"><div class="social-circle-border"><i class="fa fa-google-plus"></i></div></a></li>
+                                <li><a href="#"><div class="social-circle-border"><i class="fa fa-pinterest"></i></div></a></li>
+                                <li><a href="#"><div class="social-circle-border"><i class="fa fa-linkedin"></i></div></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-b">
+                            <h3>New Menu</h3>
+                            <ul>
+                                <li><a href="#">Italian Bomba Sandwich</a></li>
+                                <li><a href="#">Double Dose of Pork Belly</a></li>
+                                <li><a href="#">Spicy Thai Noodles</a></li>
+                                <li><a href="#">Triple Truffle Trotters</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-c">
+                            <h3>Contact Us</h3>
+                            <p>
+                                <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
+                            </p>
+                            <p>
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                <span>+91 80005 89080</span>
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span><a href="mailto:support@foodfunday.com">support@foodfunday.com</a></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-d">
+                            <h3>Opening Hours</h3>
+                            <ul>
+                                <li><p>Monday - Thursday</p><span>11:00 AM - 9:00 PM</span></li>
+                                <li><p>Friday - Saturday</p><span>11:00 AM - 5:00 PM</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="copyright" class="copyright-main">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <h2 class="ft-title color-white text-center">Newsletter</h2>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                        <form>
-                            <input type="email" placeholder="Enter your e-mail id" required>
-                            <button type="submit" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                        </form>
+                        <h6 class="copy-title text-center">Copyright &copy; 2025. Powered by <strong>Zaki Oussama</strong>.</h6>
                     </div>
-                    <!-- end col -->
                 </div>
-                <!-- end row -->
             </div>
-            <!-- end container -->
         </div>
-        <!-- end footer-news -->
-
-        <div class="footer-box pad-top-70">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-in-main">
-                        <div class="footer-logo">
-                            <div class="text-center">
-                                <img src="images/logo.png" alt="Logo" />
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-a">
-                                <h3>About Us</h3>
-                                <p>Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes.</p>
-                                <ul class="socials-box footer-socials pull-left">
-                                    <li><a href="#"><div class="social-circle-border"><i class="fa fa-facebook"></i></div></a></li>
-                                    <li><a href="#"><div class="social-circle-border"><i class="fa fa-twitter"></i></div></a></li>
-                                    <li><a href="#"><div class="social-circle-border"><i class="fa fa-google-plus"></i></div></a></li>
-                                    <li><a href="#"><div class="social-circle-border"><i class="fa fa-pinterest"></i></div></a></li>
-                                    <li><a href="#"><div class="social-circle-border"><i class="fa fa-linkedin"></i></div></a></li>
-                                </ul>
-                            </div>
-                            <!-- end footer-box-a -->
-                        </div>
-                        <!-- end col -->
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-b">
-                                <h3>New Menu</h3>
-                                <ul>
-                                    <li><a href="#">Italian Bomba Sandwich</a></li>
-                                    <li><a href="#">Double Dose of Pork Belly</a></li>
-                                    <li><a href="#">Spicy Thai Noodles</a></li>
-                                    <li><a href="#">Triple Truffle Trotters</a></li>
-                                </ul>
-                            </div>
-                            <!-- end footer-box-b -->
-                        </div>
-                        <!-- end col -->
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-c">
-                                <h3>Contact Us</h3>
-                                <p>
-                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                    <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
-                                </p>
-                                <p>
-                                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    <span>+91 80005 89080</span>
-                                </p>
-                                <p>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="mailto:support@foodfunday.com">support@foodfunday.com</a></span>
-                                </p>
-                            </div>
-                            <!-- end footer-box-c -->
-                        </div>
-                        <!-- end col -->
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-d">
-                                <h3>Opening Hours</h3>
-                                <ul>
-                                    <li><p>Monday - Thursday</p><span> 11:00 AM - 9:00 PM</span></li>
-                                    <li><p>Friday - Saturday</p><span> 11:00 AM - 5:00 PM</span></li>
-                                </ul>
-                            </div>
-                            <!-- end footer-box-d -->
-                        </div>
-                        <!-- end col -->
-                    </div>
-                    <!-- end footer-in-main -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-
-            <div id="copyright" class="copyright-main">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h6 class="copy-title">Copyright &copy; 2017 Food Funday is powered by <a href="#" target="_blank"></a></h6>
-                        </div>
-                    </div>
-                    <!-- end row -->
-                </div>
-                <!-- end container -->
-            </div>
-            <!-- end copyright-main -->
-        </div>
-        <!-- end footer-box -->
+    </div>
 </div>
+
 
 
 
