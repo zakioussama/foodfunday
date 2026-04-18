@@ -44,7 +44,7 @@ class AuthenticatedSessionController extends Controller
         }
 
         // Redirect regular user to '/' (or your user home URL)
-        return redirect()->intended('/home');
+        return redirect()->intended('/dashboard');
     }
 
 
