@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/zakioussama/foodfunday.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 sh 'composer install'
