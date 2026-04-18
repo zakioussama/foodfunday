@@ -47,7 +47,7 @@ class RegisteredUserController extends Controller
     Auth::login($user);
 
     // Redirect to home instead of dashboard
-    return redirect('/dashboard');
+    return redirect('/home');
 }
 
 }
