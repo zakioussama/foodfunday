@@ -51,7 +51,7 @@
 <!-- Full-screen banner with background -->
 <div class="bg-image" style="background-image: url('{{ asset('images/banner.jpg') }}'); background-size: cover; background-position: center; min-height: 100vh; display: flex; justify-content: center; align-items: center;">
     <div style="background-color: rgba(0, 0, 0, 0.85); padding: 40px; border-radius: 10px; width: 100%; max-width: 600px;">
-        <h2 class="ft-title color-white text-center mb-4">Welcome to Food Fun Day</h2>
+        <h2 class="ft-title color-white text-center mb-4">Welcome to supemir</h2>
         <p class="text-center text-white mb-4">Please login or register to continue.</p>
 
         <div class="button-group">
