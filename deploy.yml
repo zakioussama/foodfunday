@@ -1,7 +1,7 @@
 ---
 - name: Deploy FoodFunday
   hosts: local
-  become: yes
+  become: no
 
   tasks:
     - name: Copy project files
