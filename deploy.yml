@@ -7,20 +7,5 @@
     - name: Copy project files
       shell: cp -r /var/jenkins_home/workspace/foodfunday/. /home/oussama/foodfunday/ 2>/dev/null || true
 
-    - name: Copy env file
-      shell: cp /home/oussama/foodfunday/.env.example /home/oussama/foodfunday/.env
-
-    - name: Generate app key
-      shell: php artisan key:generate
-      args:
-        chdir: /home/oussama/foodfunday
-
-    - name: Run migrations
-      shell: php artisan migrate --force
-      args:
-        chdir: /home/oussama/foodfunday
-
-    - name: Clear cache
-      shell: php artisan cache:clear
-      args:
-        chdir: /home/oussama/foodfunday
+    - name: Run artisan commands via Docker
+      shell: docker run --rm --volumes-from jenkins -v /home/oussama/foodfunday:/home/oussama/foodfunday -w /home/oussama/foodfunday foodfunday-ci bash -c "cp .env.example .env && php artisan key:generate && php artisan migrate --force && php artisan config:clear && php artisan cache:clear"
