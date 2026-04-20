@@ -19,5 +19,17 @@ pipeline {
                 '''
             }
         }
+
+	stage('Deploy') {
+            steps {
+                sh '''
+                    cp -r ${WORKSPACE}/. /home/oussama/foodfunday/
+                    cd /home/oussama/foodfunday
+                    php artisan migrate --force
+                    php artisan config:clear
+                    php artisan cache:clear
+                '''
+            }
+        }
     }
 }
