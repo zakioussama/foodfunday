@@ -5,41 +5,22 @@
 
   tasks:
     - name: Copy project files
-      synchronize:
-        src: /var/jenkins_home/workspace/foodfunday/
-        dest: /home/oussama/foodfunday/
-        rsync_opts:
-          - "--exclude=.git"
-
-    - name: Install composer dependencies
-      command: composer install --no-interaction --prefer-dist
-      args:
-        chdir: /home/oussama/foodfunday
+      shell: cp -r /var/jenkins_home/workspace/foodfunday/. /home/oussama/foodfunday/ 2>/dev/null || true
 
     - name: Copy env file
-      command: cp .env.example .env
-      args:
-        chdir: /home/oussama/foodfunday
+      shell: cp /home/oussama/foodfunday/.env.example /home/oussama/foodfunday/.env
 
     - name: Generate app key
-      command: php artisan key:generate
+      shell: php artisan key:generate
       args:
         chdir: /home/oussama/foodfunday
 
     - name: Run migrations
-      command: php artisan migrate --force
+      shell: php artisan migrate --force
       args:
         chdir: /home/oussama/foodfunday
 
     - name: Clear cache
-      command: php artisan cache:clear
+      shell: php artisan cache:clear
       args:
         chdir: /home/oussama/foodfunday
-
-    - name: Set permissions
-      file:
-        path: /home/oussama/foodfunday/storage
-        owner: www-data
-        group: www-data
-        recurse: yes
-        mode: '0775'
